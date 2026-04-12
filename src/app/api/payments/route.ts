@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getRazorpay, verifyRazorpaySignature } from "@/lib/razorpay";
-import { RAZORPAY_KEY_ID } from "@/lib/env";
+const RAZORPAY_KEY_ID = process.env.RAZORPAY_KEY_ID!;
 
 export async function POST(request: NextRequest) {
   let amount = 0;
