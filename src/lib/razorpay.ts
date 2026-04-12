@@ -1,6 +1,6 @@
 import crypto from "crypto";
 import Razorpay from "razorpay";
-import { RAZORPAY_KEY_ID, RAZORPAY_KEY_SECRET } from "./env";
+import { RAZORPAY_KEY_ID, RAZORPAY_KEY_SECRET } from "@/lib/env";
 
 let razorpayInstance: Razorpay | null = null;
 

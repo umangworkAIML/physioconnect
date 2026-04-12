@@ -1,8 +1,8 @@
 import jwt from "jsonwebtoken";
 import bcrypt from "bcryptjs";
 import { cookies } from "next/headers";
-import prisma from "./prisma";
-import { JWT_SECRET } from "./env";
+import prisma from "@/lib/prisma";
+import { JWT_SECRET } from "@/lib/env";
 
 export interface JWTPayload {
   userId: string;
