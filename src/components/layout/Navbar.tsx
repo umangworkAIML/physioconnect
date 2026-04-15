@@ -17,6 +17,7 @@ import {
 } from "lucide-react";
 
 const navLinks = [
+  { href: "/nearby", label: "Nearby Doctors" },
   { href: "/therapists", label: "Find Therapists" },
   { href: "/clinics", label: "Clinics" },
   { href: "/consultation", label: "Consultation" },

@@ -12,6 +12,7 @@ import {
 
 const footerLinks = {
   Services: [
+    { label: "Find Doctors Nearby", href: "/nearby" },
     { label: "Home Visits", href: "/therapists" },
     { label: "Find Clinics", href: "/clinics" },
     { label: "Online Consultation", href: "/consultation" },
