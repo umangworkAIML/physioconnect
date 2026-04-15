@@ -26,12 +26,12 @@ async function main() {
   const admin = await prisma.user.create({
     data: {
       name: "Admin User",
-      email: "admin@physioconnect.in",
+      email: "admin@physiojoy.in",
       passwordHash: adminPassword,
       role: "ADMIN",
     },
   });
-  console.log("✅ Admin user created (admin@physioconnect.in / admin123)");
+  console.log("✅ Admin user created (admin@physiojoy.in / admin123)");
 
   // Create Patient Users
   const patientPassword = await bcrypt.hash("patient123", 12);
@@ -53,7 +53,7 @@ async function main() {
   const therapistData = [
     {
       name: "Dr. Sarah Khan",
-      email: "sarah@physioconnect.in",
+      email: "sarah@physiojoy.in",
       phone: "+919876543220",
       profile: {
         specializations: ["Orthopedic", "Sports Injury", "Spine & Back"],
@@ -74,7 +74,7 @@ async function main() {
     },
     {
       name: "Dr. Amit Joshi",
-      email: "amit@physioconnect.in",
+      email: "amit@physiojoy.in",
       phone: "+919876543221",
       profile: {
         specializations: ["Neurological", "Geriatric", "Post-Surgical"],
@@ -95,7 +95,7 @@ async function main() {
     },
     {
       name: "Dr. Meera Reddy",
-      email: "meera@physioconnect.in",
+      email: "meera@physiojoy.in",
       phone: "+919876543222",
       profile: {
         specializations: ["Women's Health", "Pediatric", "Chronic Pain"],
@@ -116,7 +116,7 @@ async function main() {
     },
     {
       name: "Dr. Vivek Mehta",
-      email: "vivek@physioconnect.in",
+      email: "vivek@physiojoy.in",
       phone: "+919876543223",
       profile: {
         specializations: ["Sports Injury", "Cardiopulmonary", "Orthopedic"],
@@ -137,7 +137,7 @@ async function main() {
     },
     {
       name: "Dr. Nisha Sharma",
-      email: "nisha@physioconnect.in",
+      email: "nisha@physiojoy.in",
       phone: "+919876543224",
       profile: {
         specializations: ["Chronic Pain", "Spine & Back", "Geriatric"],
@@ -158,7 +158,7 @@ async function main() {
     },
     {
       name: "Dr. Karan Patel",
-      email: "karan@physioconnect.in",
+      email: "karan@physiojoy.in",
       phone: "+919876543225",
       profile: {
         specializations: ["Orthopedic", "Post-Surgical"],
@@ -216,10 +216,10 @@ async function main() {
   await prisma.clinic.createMany({
     data: [
       {
-        name: "PhysioConnect Satellite Clinic",
+        name: "PhysioJoy Satellite Clinic",
         address: "201, Shivalik Complex, Satellite Cross Roads, Ahmedabad 380015",
         phone: "+919876543280",
-        email: "satellite@physioconnect.in",
+        email: "satellite@physiojoy.in",
         latitude: 23.0225,
         longitude: 72.5714,
         description: "Our flagship clinic with state-of-the-art rehabilitation equipment and expert physiotherapists.",
@@ -229,10 +229,10 @@ async function main() {
         timings: "Mon-Sat: 8AM-8PM",
       },
       {
-        name: "PhysioConnect SG Highway",
+        name: "PhysioJoy SG Highway",
         address: "GF-12, Shapath Hexa, SG Highway, Ahmedabad 380054",
         phone: "+919876543281",
-        email: "sghighway@physioconnect.in",
+        email: "sghighway@physiojoy.in",
         latitude: 23.01,
         longitude: 72.56,
         description: "Modern clinic with hydrotherapy pool and advanced pain management facilities.",
@@ -242,10 +242,10 @@ async function main() {
         timings: "Mon-Sat: 9AM-7PM",
       },
       {
-        name: "PhysioConnect Prahladnagar",
+        name: "PhysioJoy Prahladnagar",
         address: "305, Venus Atlantis, Prahladnagar, Ahmedabad 380015",
         phone: "+919876543282",
-        email: "prahladnagar@physioconnect.in",
+        email: "prahladnagar@physiojoy.in",
         latitude: 23.04,
         longitude: 72.55,
         description: "Specialized in women's health and pediatric physiotherapy with dedicated kids area.",
@@ -255,10 +255,10 @@ async function main() {
         timings: "Mon-Sat: 9AM-6PM",
       },
       {
-        name: "PhysioConnect CG Road",
+        name: "PhysioJoy CG Road",
         address: "108, Siddhivinayak Complex, CG Road, Ahmedabad 380006",
         phone: "+919876543283",
-        email: "cgroad@physioconnect.in",
+        email: "cgroad@physiojoy.in",
         latitude: 23.03,
         longitude: 72.58,
         description: "Central Ahmedabad's premium physiotherapy center with advanced equipment.",
@@ -480,9 +480,9 @@ async function main() {
 
   console.log("\n🎉 Database seeded successfully!");
   console.log("\n📋 Login credentials:");
-  console.log("  Admin:     admin@physioconnect.in / admin123");
+  console.log("  Admin:     admin@physiojoy.in / admin123");
   console.log("  Patient:   priya@example.com / patient123");
-  console.log("  Therapist: sarah@physioconnect.in / therapist123");
+  console.log("  Therapist: sarah@physiojoy.in / therapist123");
 }
 
 main()

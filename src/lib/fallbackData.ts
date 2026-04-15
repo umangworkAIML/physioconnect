@@ -251,11 +251,11 @@ export const fallbackProducts = [
 export const fallbackClinics = [
   {
     id: "demo-clinic-1",
-    name: "PhysioConnect Elite Clinic",
+    name: "PhysioJoy Elite Clinic",
     address: "203 Titanium City Center, Satellite Road, Ahmedabad 380015",
     city: "Ahmedabad",
     phone: "+91 79 2685 1234",
-    email: "elite@physioconnect.in",
+    email: "elite@physiojoy.in",
     latitude: 23.0225,
     longitude: 72.5714,
     description: "State-of-the-art physiotherapy clinic with advanced equipment and certified specialists.",

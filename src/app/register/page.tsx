@@ -42,7 +42,7 @@ export default function RegisterPage() {
           <div className="w-20 h-20 rounded-2xl bg-white/20 flex items-center justify-center mx-auto mb-8">
             <Stethoscope className="w-10 h-10 text-white" />
           </div>
-          <h2 className="text-3xl font-bold mb-4">Join PhysioConnect</h2>
+          <h2 className="text-3xl font-bold mb-4">Join PhysioJoy</h2>
           <p className="text-white/70 leading-relaxed">
             Create your free account and start your journey to better health with
             Ahmedabad&apos;s top physiotherapists.

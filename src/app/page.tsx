@@ -85,7 +85,7 @@ const testimonials = [
   {
     name: "Priya Patel",
     role: "Patient",
-    text: "PhysioConnect changed my recovery journey. The home visit option was incredibly convenient after my knee surgery.",
+    text: "PhysioJoy changed my recovery journey. The home visit option was incredibly convenient after my knee surgery.",
     rating: 5,
   },
   {
@@ -337,7 +337,7 @@ export default function HomePage() {
               variants={staggerContainer}
             >
               <motion.span variants={fadeInUp} className="badge badge-accent mb-4 inline-block">
-                Why PhysioConnect
+                Why PhysioJoy
               </motion.span>
               <motion.h2 variants={fadeInUp} className="text-3xl md:text-4xl font-bold mb-6">
                 Trusted by Thousands in{" "}
@@ -472,7 +472,7 @@ export default function HomePage() {
               </h2>
               <p className="text-white/80 max-w-2xl mx-auto mb-8 leading-relaxed">
                 Join thousands of patients in Ahmedabad who have found relief and recovery
-                through PhysioConnect. Book your first session today.
+                through PhysioJoy. Book your first session today.
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
                 <Link

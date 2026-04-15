@@ -24,7 +24,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Therapist not available for online consultation" }, { status: 400 });
     }
 
-    const meetingLink = `https://meet.physioconnect.in/${Date.now()}-${Math.random().toString(36).substring(7)}`;
+    const meetingLink = `https://meet.physiojoy.in/${Date.now()}-${Math.random().toString(36).substring(7)}`;
 
     const consultation = await prisma.consultation.create({
       data: {

@@ -65,7 +65,7 @@ export default function CheckoutPage() {
       key: RAZORPAY_PUBLIC_KEY,
       amount: options.amount,
       currency: options.currency || "INR",
-      name: "PhysioConnect",
+      name: "PhysioJoy",
       description: "Product Purchase",
       handler: async function (response: Record<string, string>) {
         // Verify payment on backend (best-effort, don't block success)

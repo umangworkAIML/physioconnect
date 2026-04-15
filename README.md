@@ -1,4 +1,4 @@
-# PhysioConnect Ahmedabad
+# PhysioJoy Ahmedabad
 
 > Ahmedabad's premier physiotherapy platform. Book certified therapists, discover clinics, get online consultations, join Physio Dance sessions, and shop recovery products.
 
@@ -11,7 +11,7 @@
 
 ### 1. Install Dependencies
 ```bash
-cd physioconnect
+cd physiojoy
 npm install
 ```
 
@@ -49,9 +49,9 @@ Open [http://localhost:3000](http://localhost:3000)
 ### Demo Credentials
 | Role | Email | Password |
 |------|-------|----------|
-| Admin | admin@physioconnect.in | admin123 |
+| Admin | admin@physiojoy.in | admin123 |
 | Patient | priya@example.com | patient123 |
-| Therapist | sarah@physioconnect.in | therapist123 |
+| Therapist | sarah@physiojoy.in | therapist123 |
 
 ---
 
@@ -74,7 +74,7 @@ Open [http://localhost:3000](http://localhost:3000)
 ## 📁 Project Structure
 
 ```
-physioconnect/
+physiojoy/
 ├── prisma/
 │   ├── schema.prisma          # Database schema (13 models)
 │   └── seed.ts                # Demo data seeder
