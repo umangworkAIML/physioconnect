@@ -51,12 +51,12 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Nav */}
-          <div className="hidden lg:flex items-center gap-1">
+          <div className="hidden lg:flex items-center gap-2">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="px-3 py-2 text-sm font-medium text-muted-foreground hover:text-primary rounded-lg hover:bg-primary/5 transition-all duration-200"
+                className="px-4 py-2 text-sm font-semibold text-muted-foreground hover:text-primary rounded-full hover:bg-secondary transition-all duration-300"
               >
                 {link.label}
               </Link>
@@ -141,11 +141,11 @@ export default function Navbar() {
                 )}
               </div>
             ) : (
-              <div className="hidden sm:flex items-center gap-2">
-                <Link href="/login" className="btn btn-ghost btn-sm">
+              <div className="hidden sm:flex items-center gap-3">
+                <Link href="/login" className="btn btn-ghost rounded-full font-bold">
                   Sign In
                 </Link>
-                <Link href="/register" className="btn btn-primary btn-sm">
+                <Link href="/register" className="btn btn-primary rounded-full px-6 shadow-md shadow-primary/30">
                   Get Started
                 </Link>
               </div>
